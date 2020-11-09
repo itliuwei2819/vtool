@@ -18,18 +18,24 @@
     <description>Vtool 微信支付</description>
 
     <properties>
-        <!-- versions -->
-        <cglib.version>3.3.0</cglib.version>
-        <spring.version>5.2.9.RELEASE</spring.version>
+        <hutool.version>5.4.7</hutool.version>
     </properties>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>cglib</groupId>-->
-<!--            <artifactId>cglib</artifactId>-->
-<!--            <version>${cglib.version}</version>-->
-<!--            <scope>compile</scope>-->
-<!--            <optional>true</optional>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-http</artifactId>
+            <version>5.4.7</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-crypto</artifactId>
+            <version>5.4.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.72</version>
+        </dependency>
     </dependencies>
 </project>
